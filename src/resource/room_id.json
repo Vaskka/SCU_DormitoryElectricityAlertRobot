@@ -1,0 +1,1811 @@
+{
+    "contents": [
+        {
+            "code": "1",
+            "dorms": [
+                {
+                    "campusId": 1,
+                    "code": "401",
+                    "id": 1,
+                    "name": "北园1舍",
+                    "units": []
+                },
+                {
+                    "campusId": 1,
+                    "code": "402",
+                    "id": 2,
+                    "name": "北园2舍",
+                    "units": []
+                },
+                {
+                    "campusId": 1,
+                    "code": "403",
+                    "id": 3,
+                    "name": "北园3舍",
+                    "units": []
+                },
+                {
+                    "campusId": 1,
+                    "code": "404",
+                    "id": 4,
+                    "name": "北园4舍",
+                    "units": []
+                },
+                {
+                    "campusId": 1,
+                    "code": "405",
+                    "id": 5,
+                    "name": "北园5舍",
+                    "units": []
+                },
+                {
+                    "campusId": 1,
+                    "code": "406",
+                    "id": 6,
+                    "name": "北园6舍",
+                    "units": []
+                },
+                {
+                    "campusId": 1,
+                    "code": "408",
+                    "id": 7,
+                    "name": "北园8舍",
+                    "units": [
+                        {
+                            "code": "56",
+                            "dormId": 7,
+                            "id": 7,
+                            "name": "学生单元"
+                        },
+                        {
+                            "code": "57",
+                            "dormId": 7,
+                            "id": 248,
+                            "name": "教工单元"
+                        }
+                    ]
+                },
+                {
+                    "campusId": 1,
+                    "code": "101",
+                    "id": 8,
+                    "name": "东园1舍",
+                    "units": [
+                        {
+                            "code": "01",
+                            "dormId": 8,
+                            "id": 8,
+                            "name": "1单元"
+                        },
+                        {
+                            "code": "02",
+                            "dormId": 8,
+                            "id": 9,
+                            "name": "2单元"
+                        },
+                        {
+                            "code": "03",
+                            "dormId": 8,
+                            "id": 10,
+                            "name": "3单元"
+                        },
+                        {
+                            "code": "04",
+                            "dormId": 8,
+                            "id": 11,
+                            "name": "4单元"
+                        }
+                    ]
+                },
+                {
+                    "campusId": 1,
+                    "code": "102",
+                    "id": 9,
+                    "name": "东园2舍",
+                    "units": []
+                },
+                {
+                    "campusId": 1,
+                    "code": "103",
+                    "id": 10,
+                    "name": "东园3舍",
+                    "units": []
+                },
+                {
+                    "campusId": 1,
+                    "code": "104",
+                    "id": 11,
+                    "name": "东园4舍",
+                    "units": [
+                        {
+                            "code": "53",
+                            "dormId": 11,
+                            "id": 15,
+                            "name": "附楼"
+                        },
+                        {
+                            "code": "55",
+                            "dormId": 11,
+                            "id": 14,
+                            "name": "主楼"
+                        }
+                    ]
+                },
+                {
+                    "campusId": 1,
+                    "code": "105",
+                    "id": 12,
+                    "name": "东园5舍",
+                    "units": [
+                        {
+                            "code": "53",
+                            "dormId": 12,
+                            "id": 17,
+                            "name": "附楼"
+                        },
+                        {
+                            "code": "55",
+                            "dormId": 12,
+                            "id": 16,
+                            "name": "主楼"
+                        }
+                    ]
+                },
+                {
+                    "campusId": 1,
+                    "code": "106",
+                    "id": 13,
+                    "name": "东园6舍",
+                    "units": []
+                },
+                {
+                    "campusId": 1,
+                    "code": "107",
+                    "id": 14,
+                    "name": "东园7舍",
+                    "units": [
+                        {
+                            "code": "53",
+                            "dormId": 14,
+                            "id": 20,
+                            "name": "附楼"
+                        },
+                        {
+                            "code": "55",
+                            "dormId": 14,
+                            "id": 19,
+                            "name": "主楼"
+                        }
+                    ]
+                },
+                {
+                    "campusId": 1,
+                    "code": "108",
+                    "id": 15,
+                    "name": "东园8舍",
+                    "units": []
+                },
+                {
+                    "campusId": 1,
+                    "code": "109",
+                    "id": 16,
+                    "name": "东园9舍",
+                    "units": []
+                },
+                {
+                    "campusId": 1,
+                    "code": "110",
+                    "id": 17,
+                    "name": "东园10舍",
+                    "units": []
+                },
+                {
+                    "campusId": 1,
+                    "code": "111",
+                    "id": 18,
+                    "name": "东园11舍",
+                    "units": []
+                },
+                {
+                    "campusId": 1,
+                    "code": "112",
+                    "id": 19,
+                    "name": "东园12舍",
+                    "units": []
+                },
+                {
+                    "campusId": 1,
+                    "code": "113",
+                    "id": 20,
+                    "name": "东园13舍",
+                    "units": []
+                },
+                {
+                    "campusId": 1,
+                    "code": "114",
+                    "id": 21,
+                    "name": "东园14舍",
+                    "units": []
+                },
+                {
+                    "campusId": 1,
+                    "code": "115",
+                    "id": 22,
+                    "name": "东园15舍",
+                    "units": []
+                },
+                {
+                    "campusId": 1,
+                    "code": "117",
+                    "id": 23,
+                    "name": "东园17舍",
+                    "units": []
+                },
+                {
+                    "campusId": 1,
+                    "code": "201",
+                    "id": 24,
+                    "name": "南园1舍",
+                    "units": []
+                },
+                {
+                    "campusId": 1,
+                    "code": "202",
+                    "id": 25,
+                    "name": "南园2舍",
+                    "units": []
+                },
+                {
+                    "campusId": 1,
+                    "code": "701",
+                    "id": 26,
+                    "name": "桃林一栋",
+                    "units": [
+                        {
+                            "code": "57",
+                            "dormId": 26,
+                            "id": 33,
+                            "name": "教工单元"
+                        }
+                    ]
+                },
+                {
+                    "campusId": 1,
+                    "code": "203",
+                    "id": 63,
+                    "name": "南园3舍",
+                    "units": []
+                },
+                {
+                    "campusId": 1,
+                    "code": "901",
+                    "id": 65,
+                    "name": "竹林公寓",
+                    "units": [
+                        {
+                            "code": "58",
+                            "dormId": 65,
+                            "id": 245,
+                            "name": "南楼"
+                        },
+                        {
+                            "code": "59",
+                            "dormId": 65,
+                            "id": 246,
+                            "name": "西楼"
+                        }
+                    ]
+                },
+                {
+                    "campusId": 1,
+                    "code": "702",
+                    "id": 66,
+                    "name": "桃林二栋",
+                    "units": []
+                }
+            ],
+            "id": 1,
+            "name": "望江校区"
+        },
+        {
+            "code": "2",
+            "dorms": [
+                {
+                    "campusId": 2,
+                    "code": "501",
+                    "id": 27,
+                    "name": "男1舍",
+                    "units": []
+                },
+                {
+                    "campusId": 2,
+                    "code": "502",
+                    "id": 28,
+                    "name": "男2舍",
+                    "units": []
+                },
+                {
+                    "campusId": 2,
+                    "code": "503",
+                    "id": 29,
+                    "name": "男3舍",
+                    "units": []
+                },
+                {
+                    "campusId": 2,
+                    "code": "504",
+                    "id": 30,
+                    "name": "男4舍",
+                    "units": []
+                },
+                {
+                    "campusId": 2,
+                    "code": "505",
+                    "id": 31,
+                    "name": "男5舍",
+                    "units": []
+                },
+                {
+                    "campusId": 2,
+                    "code": "506",
+                    "id": 32,
+                    "name": "男6舍",
+                    "units": []
+                },
+                {
+                    "campusId": 2,
+                    "code": "601",
+                    "id": 33,
+                    "name": "女1舍",
+                    "units": [
+                        {
+                            "code": "01",
+                            "dormId": 33,
+                            "id": 40,
+                            "name": "1单元"
+                        },
+                        {
+                            "code": "02",
+                            "dormId": 33,
+                            "id": 41,
+                            "name": "2单元"
+                        },
+                        {
+                            "code": "03",
+                            "dormId": 33,
+                            "id": 42,
+                            "name": "3单元"
+                        }
+                    ]
+                },
+                {
+                    "campusId": 2,
+                    "code": "602",
+                    "id": 34,
+                    "name": "女2舍",
+                    "units": [
+                        {
+                            "code": "01",
+                            "dormId": 34,
+                            "id": 43,
+                            "name": "1单元"
+                        },
+                        {
+                            "code": "02",
+                            "dormId": 34,
+                            "id": 44,
+                            "name": "2单元"
+                        },
+                        {
+                            "code": "03",
+                            "dormId": 34,
+                            "id": 45,
+                            "name": "3单元"
+                        },
+                        {
+                            "code": "04",
+                            "dormId": 34,
+                            "id": 46,
+                            "name": "4单元"
+                        }
+                    ]
+                },
+                {
+                    "campusId": 2,
+                    "code": "603",
+                    "id": 35,
+                    "name": "女3舍",
+                    "units": []
+                },
+                {
+                    "campusId": 2,
+                    "code": "604",
+                    "id": 36,
+                    "name": "女4舍",
+                    "units": []
+                },
+                {
+                    "campusId": 2,
+                    "code": "605",
+                    "id": 37,
+                    "name": "女5舍",
+                    "units": [
+                        {
+                            "code": "54",
+                            "dormId": 37,
+                            "id": 50,
+                            "name": "中楼"
+                        },
+                        {
+                            "code": "55",
+                            "dormId": 37,
+                            "id": 49,
+                            "name": "主楼"
+                        }
+                    ]
+                },
+                {
+                    "campusId": 2,
+                    "code": "606",
+                    "id": 38,
+                    "name": "女6舍",
+                    "units": [
+                        {
+                            "code": "51",
+                            "dormId": 38,
+                            "id": 51,
+                            "name": "A栋"
+                        },
+                        {
+                            "code": "52",
+                            "dormId": 38,
+                            "id": 52,
+                            "name": "B栋"
+                        }
+                    ]
+                },
+                {
+                    "campusId": 2,
+                    "code": "902",
+                    "id": 64,
+                    "name": "筒子楼公寓",
+                    "units": []
+                }
+            ],
+            "id": 2,
+            "name": "华西校区"
+        },
+        {
+            "code": "3",
+            "dorms": [
+                {
+                    "campusId": 3,
+                    "code": "101",
+                    "id": 39,
+                    "name": "东园1舍",
+                    "units": []
+                },
+                {
+                    "campusId": 3,
+                    "code": "102",
+                    "id": 40,
+                    "name": "东园2舍",
+                    "units": []
+                },
+                {
+                    "campusId": 3,
+                    "code": "103",
+                    "id": 41,
+                    "name": "东园3舍",
+                    "units": []
+                },
+                {
+                    "campusId": 3,
+                    "code": "301",
+                    "id": 42,
+                    "name": "西园1舍",
+                    "units": [
+                        {
+                            "code": "01",
+                            "dormId": 42,
+                            "id": 56,
+                            "name": "1单元"
+                        },
+                        {
+                            "code": "02",
+                            "dormId": 42,
+                            "id": 57,
+                            "name": "2单元"
+                        },
+                        {
+                            "code": "03",
+                            "dormId": 42,
+                            "id": 58,
+                            "name": "3单元"
+                        },
+                        {
+                            "code": "04",
+                            "dormId": 42,
+                            "id": 59,
+                            "name": "4单元"
+                        },
+                        {
+                            "code": "05",
+                            "dormId": 42,
+                            "id": 60,
+                            "name": "5单元"
+                        },
+                        {
+                            "code": "06",
+                            "dormId": 42,
+                            "id": 61,
+                            "name": "6单元"
+                        },
+                        {
+                            "code": "07",
+                            "dormId": 42,
+                            "id": 62,
+                            "name": "7单元"
+                        },
+                        {
+                            "code": "08",
+                            "dormId": 42,
+                            "id": 63,
+                            "name": "8单元"
+                        }
+                    ]
+                },
+                {
+                    "campusId": 3,
+                    "code": "302",
+                    "id": 43,
+                    "name": "西园2舍",
+                    "units": [
+                        {
+                            "code": "01",
+                            "dormId": 43,
+                            "id": 64,
+                            "name": "1单元"
+                        },
+                        {
+                            "code": "02",
+                            "dormId": 43,
+                            "id": 65,
+                            "name": "2单元"
+                        },
+                        {
+                            "code": "03",
+                            "dormId": 43,
+                            "id": 66,
+                            "name": "3单元"
+                        },
+                        {
+                            "code": "04",
+                            "dormId": 43,
+                            "id": 67,
+                            "name": "4单元"
+                        },
+                        {
+                            "code": "05",
+                            "dormId": 43,
+                            "id": 68,
+                            "name": "5单元"
+                        },
+                        {
+                            "code": "06",
+                            "dormId": 43,
+                            "id": 69,
+                            "name": "6单元"
+                        },
+                        {
+                            "code": "07",
+                            "dormId": 43,
+                            "id": 70,
+                            "name": "7单元"
+                        },
+                        {
+                            "code": "08",
+                            "dormId": 43,
+                            "id": 71,
+                            "name": "8单元"
+                        }
+                    ]
+                },
+                {
+                    "campusId": 3,
+                    "code": "303",
+                    "id": 44,
+                    "name": "西园3舍",
+                    "units": [
+                        {
+                            "code": "01",
+                            "dormId": 44,
+                            "id": 72,
+                            "name": "1单元"
+                        },
+                        {
+                            "code": "02",
+                            "dormId": 44,
+                            "id": 73,
+                            "name": "2单元"
+                        },
+                        {
+                            "code": "03",
+                            "dormId": 44,
+                            "id": 74,
+                            "name": "3单元"
+                        },
+                        {
+                            "code": "04",
+                            "dormId": 44,
+                            "id": 75,
+                            "name": "4单元"
+                        },
+                        {
+                            "code": "05",
+                            "dormId": 44,
+                            "id": 76,
+                            "name": "5单元"
+                        },
+                        {
+                            "code": "06",
+                            "dormId": 44,
+                            "id": 77,
+                            "name": "6单元"
+                        },
+                        {
+                            "code": "07",
+                            "dormId": 44,
+                            "id": 78,
+                            "name": "7单元"
+                        },
+                        {
+                            "code": "08",
+                            "dormId": 44,
+                            "id": 79,
+                            "name": "8单元"
+                        }
+                    ]
+                },
+                {
+                    "campusId": 3,
+                    "code": "304",
+                    "id": 45,
+                    "name": "西园4舍",
+                    "units": [
+                        {
+                            "code": "01",
+                            "dormId": 45,
+                            "id": 80,
+                            "name": "1单元"
+                        },
+                        {
+                            "code": "02",
+                            "dormId": 45,
+                            "id": 81,
+                            "name": "2单元"
+                        },
+                        {
+                            "code": "03",
+                            "dormId": 45,
+                            "id": 82,
+                            "name": "3单元"
+                        },
+                        {
+                            "code": "04",
+                            "dormId": 45,
+                            "id": 83,
+                            "name": "4单元"
+                        },
+                        {
+                            "code": "05",
+                            "dormId": 45,
+                            "id": 84,
+                            "name": "5单元"
+                        },
+                        {
+                            "code": "06",
+                            "dormId": 45,
+                            "id": 85,
+                            "name": "6单元"
+                        },
+                        {
+                            "code": "07",
+                            "dormId": 45,
+                            "id": 86,
+                            "name": "7单元"
+                        },
+                        {
+                            "code": "08",
+                            "dormId": 45,
+                            "id": 87,
+                            "name": "8单元"
+                        }
+                    ]
+                },
+                {
+                    "campusId": 3,
+                    "code": "305",
+                    "id": 46,
+                    "name": "西园5舍",
+                    "units": [
+                        {
+                            "code": "01",
+                            "dormId": 46,
+                            "id": 88,
+                            "name": "1单元"
+                        },
+                        {
+                            "code": "02",
+                            "dormId": 46,
+                            "id": 89,
+                            "name": "2单元"
+                        },
+                        {
+                            "code": "03",
+                            "dormId": 46,
+                            "id": 90,
+                            "name": "3单元"
+                        },
+                        {
+                            "code": "04",
+                            "dormId": 46,
+                            "id": 91,
+                            "name": "4单元"
+                        },
+                        {
+                            "code": "05",
+                            "dormId": 46,
+                            "id": 92,
+                            "name": "5单元"
+                        },
+                        {
+                            "code": "06",
+                            "dormId": 46,
+                            "id": 93,
+                            "name": "6单元"
+                        },
+                        {
+                            "code": "07",
+                            "dormId": 46,
+                            "id": 94,
+                            "name": "7单元"
+                        },
+                        {
+                            "code": "08",
+                            "dormId": 46,
+                            "id": 95,
+                            "name": "8单元"
+                        }
+                    ]
+                },
+                {
+                    "campusId": 3,
+                    "code": "306",
+                    "id": 47,
+                    "name": "西园6舍",
+                    "units": [
+                        {
+                            "code": "01",
+                            "dormId": 47,
+                            "id": 96,
+                            "name": "1单元"
+                        },
+                        {
+                            "code": "02",
+                            "dormId": 47,
+                            "id": 97,
+                            "name": "2单元"
+                        },
+                        {
+                            "code": "03",
+                            "dormId": 47,
+                            "id": 98,
+                            "name": "3单元"
+                        },
+                        {
+                            "code": "04",
+                            "dormId": 47,
+                            "id": 99,
+                            "name": "4单元"
+                        },
+                        {
+                            "code": "05",
+                            "dormId": 47,
+                            "id": 100,
+                            "name": "5单元"
+                        },
+                        {
+                            "code": "06",
+                            "dormId": 47,
+                            "id": 101,
+                            "name": "6单元"
+                        },
+                        {
+                            "code": "07",
+                            "dormId": 47,
+                            "id": 102,
+                            "name": "7单元"
+                        },
+                        {
+                            "code": "08",
+                            "dormId": 47,
+                            "id": 103,
+                            "name": "8单元"
+                        }
+                    ]
+                },
+                {
+                    "campusId": 3,
+                    "code": "307",
+                    "id": 48,
+                    "name": "西园7舍",
+                    "units": [
+                        {
+                            "code": "01",
+                            "dormId": 48,
+                            "id": 104,
+                            "name": "1单元"
+                        },
+                        {
+                            "code": "02",
+                            "dormId": 48,
+                            "id": 105,
+                            "name": "2单元"
+                        },
+                        {
+                            "code": "03",
+                            "dormId": 48,
+                            "id": 106,
+                            "name": "3单元"
+                        },
+                        {
+                            "code": "04",
+                            "dormId": 48,
+                            "id": 107,
+                            "name": "4单元"
+                        },
+                        {
+                            "code": "05",
+                            "dormId": 48,
+                            "id": 108,
+                            "name": "5单元"
+                        },
+                        {
+                            "code": "06",
+                            "dormId": 48,
+                            "id": 109,
+                            "name": "6单元"
+                        },
+                        {
+                            "code": "07",
+                            "dormId": 48,
+                            "id": 110,
+                            "name": "7单元"
+                        },
+                        {
+                            "code": "08",
+                            "dormId": 48,
+                            "id": 111,
+                            "name": "8单元"
+                        },
+                        {
+                            "code": "09",
+                            "dormId": 48,
+                            "id": 112,
+                            "name": "9单元"
+                        }
+                    ]
+                },
+                {
+                    "campusId": 3,
+                    "code": "308",
+                    "id": 49,
+                    "name": "西园8舍",
+                    "units": [
+                        {
+                            "code": "01",
+                            "dormId": 49,
+                            "id": 113,
+                            "name": "1单元"
+                        },
+                        {
+                            "code": "02",
+                            "dormId": 49,
+                            "id": 114,
+                            "name": "2单元"
+                        },
+                        {
+                            "code": "03",
+                            "dormId": 49,
+                            "id": 115,
+                            "name": "3单元"
+                        },
+                        {
+                            "code": "04",
+                            "dormId": 49,
+                            "id": 116,
+                            "name": "4单元"
+                        },
+                        {
+                            "code": "05",
+                            "dormId": 49,
+                            "id": 117,
+                            "name": "5单元"
+                        },
+                        {
+                            "code": "06",
+                            "dormId": 49,
+                            "id": 118,
+                            "name": "6单元"
+                        },
+                        {
+                            "code": "07",
+                            "dormId": 49,
+                            "id": 119,
+                            "name": "7单元"
+                        },
+                        {
+                            "code": "08",
+                            "dormId": 49,
+                            "id": 120,
+                            "name": "8单元"
+                        },
+                        {
+                            "code": "09",
+                            "dormId": 49,
+                            "id": 121,
+                            "name": "9单元"
+                        }
+                    ]
+                },
+                {
+                    "campusId": 3,
+                    "code": "309",
+                    "id": 50,
+                    "name": "西园9舍",
+                    "units": [
+                        {
+                            "code": "01",
+                            "dormId": 50,
+                            "id": 122,
+                            "name": "1单元"
+                        },
+                        {
+                            "code": "02",
+                            "dormId": 50,
+                            "id": 123,
+                            "name": "2单元"
+                        },
+                        {
+                            "code": "03",
+                            "dormId": 50,
+                            "id": 124,
+                            "name": "3单元"
+                        },
+                        {
+                            "code": "04",
+                            "dormId": 50,
+                            "id": 125,
+                            "name": "4单元"
+                        },
+                        {
+                            "code": "05",
+                            "dormId": 50,
+                            "id": 126,
+                            "name": "5单元"
+                        },
+                        {
+                            "code": "06",
+                            "dormId": 50,
+                            "id": 127,
+                            "name": "6单元"
+                        },
+                        {
+                            "code": "07",
+                            "dormId": 50,
+                            "id": 128,
+                            "name": "7单元"
+                        },
+                        {
+                            "code": "08",
+                            "dormId": 50,
+                            "id": 129,
+                            "name": "8单元"
+                        },
+                        {
+                            "code": "09",
+                            "dormId": 50,
+                            "id": 130,
+                            "name": "9单元"
+                        }
+                    ]
+                },
+                {
+                    "campusId": 3,
+                    "code": "310",
+                    "id": 51,
+                    "name": "西园10舍",
+                    "units": [
+                        {
+                            "code": "01",
+                            "dormId": 51,
+                            "id": 131,
+                            "name": "1单元"
+                        },
+                        {
+                            "code": "02",
+                            "dormId": 51,
+                            "id": 132,
+                            "name": "2单元"
+                        },
+                        {
+                            "code": "03",
+                            "dormId": 51,
+                            "id": 133,
+                            "name": "3单元"
+                        },
+                        {
+                            "code": "04",
+                            "dormId": 51,
+                            "id": 134,
+                            "name": "4单元"
+                        },
+                        {
+                            "code": "05",
+                            "dormId": 51,
+                            "id": 135,
+                            "name": "5单元"
+                        },
+                        {
+                            "code": "06",
+                            "dormId": 51,
+                            "id": 136,
+                            "name": "6单元"
+                        },
+                        {
+                            "code": "07",
+                            "dormId": 51,
+                            "id": 137,
+                            "name": "7单元"
+                        },
+                        {
+                            "code": "08",
+                            "dormId": 51,
+                            "id": 138,
+                            "name": "8单元"
+                        }
+                    ]
+                },
+                {
+                    "campusId": 3,
+                    "code": "311",
+                    "id": 52,
+                    "name": "西园11舍",
+                    "units": [
+                        {
+                            "code": "01",
+                            "dormId": 52,
+                            "id": 139,
+                            "name": "1单元"
+                        },
+                        {
+                            "code": "02",
+                            "dormId": 52,
+                            "id": 140,
+                            "name": "2单元"
+                        },
+                        {
+                            "code": "03",
+                            "dormId": 52,
+                            "id": 141,
+                            "name": "3单元"
+                        },
+                        {
+                            "code": "04",
+                            "dormId": 52,
+                            "id": 142,
+                            "name": "4单元"
+                        },
+                        {
+                            "code": "05",
+                            "dormId": 52,
+                            "id": 143,
+                            "name": "5单元"
+                        },
+                        {
+                            "code": "06",
+                            "dormId": 52,
+                            "id": 144,
+                            "name": "6单元"
+                        },
+                        {
+                            "code": "07",
+                            "dormId": 52,
+                            "id": 145,
+                            "name": "7单元"
+                        },
+                        {
+                            "code": "08",
+                            "dormId": 52,
+                            "id": 146,
+                            "name": "8单元"
+                        }
+                    ]
+                },
+                {
+                    "campusId": 3,
+                    "code": "312",
+                    "id": 53,
+                    "name": "西园12舍",
+                    "units": [
+                        {
+                            "code": "01",
+                            "dormId": 53,
+                            "id": 147,
+                            "name": "1单元"
+                        },
+                        {
+                            "code": "02",
+                            "dormId": 53,
+                            "id": 148,
+                            "name": "2单元"
+                        },
+                        {
+                            "code": "03",
+                            "dormId": 53,
+                            "id": 149,
+                            "name": "3单元"
+                        },
+                        {
+                            "code": "04",
+                            "dormId": 53,
+                            "id": 150,
+                            "name": "4单元"
+                        },
+                        {
+                            "code": "05",
+                            "dormId": 53,
+                            "id": 151,
+                            "name": "5单元"
+                        },
+                        {
+                            "code": "06",
+                            "dormId": 53,
+                            "id": 152,
+                            "name": "6单元"
+                        },
+                        {
+                            "code": "07",
+                            "dormId": 53,
+                            "id": 153,
+                            "name": "7单元"
+                        },
+                        {
+                            "code": "08",
+                            "dormId": 53,
+                            "id": 154,
+                            "name": "8单元"
+                        }
+                    ]
+                },
+                {
+                    "campusId": 3,
+                    "code": "313",
+                    "id": 54,
+                    "name": "西园13舍",
+                    "units": [
+                        {
+                            "code": "01",
+                            "dormId": 54,
+                            "id": 155,
+                            "name": "1单元"
+                        },
+                        {
+                            "code": "02",
+                            "dormId": 54,
+                            "id": 156,
+                            "name": "2单元"
+                        },
+                        {
+                            "code": "03",
+                            "dormId": 54,
+                            "id": 157,
+                            "name": "3单元"
+                        },
+                        {
+                            "code": "04",
+                            "dormId": 54,
+                            "id": 158,
+                            "name": "4单元"
+                        },
+                        {
+                            "code": "05",
+                            "dormId": 54,
+                            "id": 159,
+                            "name": "5单元"
+                        },
+                        {
+                            "code": "06",
+                            "dormId": 54,
+                            "id": 160,
+                            "name": "6单元"
+                        },
+                        {
+                            "code": "07",
+                            "dormId": 54,
+                            "id": 161,
+                            "name": "7单元"
+                        },
+                        {
+                            "code": "08",
+                            "dormId": 54,
+                            "id": 162,
+                            "name": "8单元"
+                        }
+                    ]
+                },
+                {
+                    "campusId": 3,
+                    "code": "314",
+                    "id": 55,
+                    "name": "西园14舍",
+                    "units": [
+                        {
+                            "code": "01",
+                            "dormId": 55,
+                            "id": 163,
+                            "name": "1单元"
+                        },
+                        {
+                            "code": "02",
+                            "dormId": 55,
+                            "id": 164,
+                            "name": "2单元"
+                        },
+                        {
+                            "code": "03",
+                            "dormId": 55,
+                            "id": 165,
+                            "name": "3单元"
+                        },
+                        {
+                            "code": "04",
+                            "dormId": 55,
+                            "id": 166,
+                            "name": "4单元"
+                        },
+                        {
+                            "code": "05",
+                            "dormId": 55,
+                            "id": 167,
+                            "name": "5单元"
+                        },
+                        {
+                            "code": "06",
+                            "dormId": 55,
+                            "id": 168,
+                            "name": "6单元"
+                        },
+                        {
+                            "code": "07",
+                            "dormId": 55,
+                            "id": 169,
+                            "name": "7单元"
+                        },
+                        {
+                            "code": "08",
+                            "dormId": 55,
+                            "id": 170,
+                            "name": "8单元"
+                        }
+                    ]
+                },
+                {
+                    "campusId": 3,
+                    "code": "315",
+                    "id": 56,
+                    "name": "西园15舍",
+                    "units": [
+                        {
+                            "code": "01",
+                            "dormId": 56,
+                            "id": 171,
+                            "name": "1单元"
+                        },
+                        {
+                            "code": "02",
+                            "dormId": 56,
+                            "id": 172,
+                            "name": "2单元"
+                        },
+                        {
+                            "code": "03",
+                            "dormId": 56,
+                            "id": 173,
+                            "name": "3单元"
+                        },
+                        {
+                            "code": "04",
+                            "dormId": 56,
+                            "id": 174,
+                            "name": "4单元"
+                        },
+                        {
+                            "code": "05",
+                            "dormId": 56,
+                            "id": 175,
+                            "name": "5单元"
+                        },
+                        {
+                            "code": "06",
+                            "dormId": 56,
+                            "id": 176,
+                            "name": "6单元"
+                        },
+                        {
+                            "code": "07",
+                            "dormId": 56,
+                            "id": 177,
+                            "name": "7单元"
+                        },
+                        {
+                            "code": "08",
+                            "dormId": 56,
+                            "id": 178,
+                            "name": "8单元"
+                        },
+                        {
+                            "code": "09",
+                            "dormId": 56,
+                            "id": 179,
+                            "name": "9单元"
+                        },
+                        {
+                            "code": "10",
+                            "dormId": 56,
+                            "id": 180,
+                            "name": "10单元"
+                        }
+                    ]
+                },
+                {
+                    "campusId": 3,
+                    "code": "316",
+                    "id": 57,
+                    "name": "西园16舍",
+                    "units": [
+                        {
+                            "code": "01",
+                            "dormId": 57,
+                            "id": 181,
+                            "name": "1单元"
+                        },
+                        {
+                            "code": "02",
+                            "dormId": 57,
+                            "id": 182,
+                            "name": "2单元"
+                        },
+                        {
+                            "code": "03",
+                            "dormId": 57,
+                            "id": 183,
+                            "name": "3单元"
+                        },
+                        {
+                            "code": "04",
+                            "dormId": 57,
+                            "id": 184,
+                            "name": "4单元"
+                        },
+                        {
+                            "code": "05",
+                            "dormId": 57,
+                            "id": 185,
+                            "name": "5单元"
+                        },
+                        {
+                            "code": "06",
+                            "dormId": 57,
+                            "id": 186,
+                            "name": "6单元"
+                        },
+                        {
+                            "code": "07",
+                            "dormId": 57,
+                            "id": 187,
+                            "name": "7单元"
+                        },
+                        {
+                            "code": "08",
+                            "dormId": 57,
+                            "id": 188,
+                            "name": "8单元"
+                        },
+                        {
+                            "code": "09",
+                            "dormId": 57,
+                            "id": 189,
+                            "name": "9单元"
+                        },
+                        {
+                            "code": "10",
+                            "dormId": 57,
+                            "id": 190,
+                            "name": "10单元"
+                        }
+                    ]
+                },
+                {
+                    "campusId": 3,
+                    "code": "317",
+                    "id": 58,
+                    "name": "西园17舍",
+                    "units": [
+                        {
+                            "code": "01",
+                            "dormId": 58,
+                            "id": 191,
+                            "name": "1单元"
+                        },
+                        {
+                            "code": "02",
+                            "dormId": 58,
+                            "id": 192,
+                            "name": "2单元"
+                        },
+                        {
+                            "code": "03",
+                            "dormId": 58,
+                            "id": 193,
+                            "name": "3单元"
+                        },
+                        {
+                            "code": "04",
+                            "dormId": 58,
+                            "id": 194,
+                            "name": "4单元"
+                        },
+                        {
+                            "code": "05",
+                            "dormId": 58,
+                            "id": 195,
+                            "name": "5单元"
+                        },
+                        {
+                            "code": "06",
+                            "dormId": 58,
+                            "id": 196,
+                            "name": "6单元"
+                        },
+                        {
+                            "code": "07",
+                            "dormId": 58,
+                            "id": 197,
+                            "name": "7单元"
+                        },
+                        {
+                            "code": "08",
+                            "dormId": 58,
+                            "id": 198,
+                            "name": "8单元"
+                        },
+                        {
+                            "code": "09",
+                            "dormId": 58,
+                            "id": 199,
+                            "name": "9单元"
+                        },
+                        {
+                            "code": "10",
+                            "dormId": 58,
+                            "id": 200,
+                            "name": "10单元"
+                        }
+                    ]
+                },
+                {
+                    "campusId": 3,
+                    "code": "318",
+                    "id": 59,
+                    "name": "西园18舍",
+                    "units": [
+                        {
+                            "code": "01",
+                            "dormId": 59,
+                            "id": 201,
+                            "name": "1单元"
+                        },
+                        {
+                            "code": "02",
+                            "dormId": 59,
+                            "id": 202,
+                            "name": "2单元"
+                        },
+                        {
+                            "code": "03",
+                            "dormId": 59,
+                            "id": 203,
+                            "name": "3单元"
+                        },
+                        {
+                            "code": "04",
+                            "dormId": 59,
+                            "id": 204,
+                            "name": "4单元"
+                        },
+                        {
+                            "code": "05",
+                            "dormId": 59,
+                            "id": 205,
+                            "name": "5单元"
+                        },
+                        {
+                            "code": "06",
+                            "dormId": 59,
+                            "id": 206,
+                            "name": "6单元"
+                        },
+                        {
+                            "code": "07",
+                            "dormId": 59,
+                            "id": 207,
+                            "name": "7单元"
+                        },
+                        {
+                            "code": "08",
+                            "dormId": 59,
+                            "id": 208,
+                            "name": "8单元"
+                        },
+                        {
+                            "code": "09",
+                            "dormId": 59,
+                            "id": 209,
+                            "name": "9单元"
+                        },
+                        {
+                            "code": "10",
+                            "dormId": 59,
+                            "id": 210,
+                            "name": "10单元"
+                        },
+                        {
+                            "code": "11",
+                            "dormId": 59,
+                            "id": 211,
+                            "name": "11单元"
+                        },
+                        {
+                            "code": "12",
+                            "dormId": 59,
+                            "id": 212,
+                            "name": "12单元"
+                        }
+                    ]
+                },
+                {
+                    "campusId": 3,
+                    "code": "319",
+                    "id": 60,
+                    "name": "西园19舍",
+                    "units": [
+                        {
+                            "code": "01",
+                            "dormId": 60,
+                            "id": 213,
+                            "name": "1单元"
+                        },
+                        {
+                            "code": "02",
+                            "dormId": 60,
+                            "id": 214,
+                            "name": "2单元"
+                        },
+                        {
+                            "code": "03",
+                            "dormId": 60,
+                            "id": 215,
+                            "name": "3单元"
+                        },
+                        {
+                            "code": "04",
+                            "dormId": 60,
+                            "id": 216,
+                            "name": "4单元"
+                        },
+                        {
+                            "code": "05",
+                            "dormId": 60,
+                            "id": 217,
+                            "name": "5单元"
+                        },
+                        {
+                            "code": "06",
+                            "dormId": 60,
+                            "id": 218,
+                            "name": "6单元"
+                        },
+                        {
+                            "code": "07",
+                            "dormId": 60,
+                            "id": 219,
+                            "name": "7单元"
+                        },
+                        {
+                            "code": "08",
+                            "dormId": 60,
+                            "id": 220,
+                            "name": "8单元"
+                        },
+                        {
+                            "code": "09",
+                            "dormId": 60,
+                            "id": 221,
+                            "name": "9单元"
+                        },
+                        {
+                            "code": "10",
+                            "dormId": 60,
+                            "id": 222,
+                            "name": "10单元"
+                        },
+                        {
+                            "code": "11",
+                            "dormId": 60,
+                            "id": 223,
+                            "name": "11单元"
+                        },
+                        {
+                            "code": "12",
+                            "dormId": 60,
+                            "id": 224,
+                            "name": "12单元"
+                        }
+                    ]
+                },
+                {
+                    "campusId": 3,
+                    "code": "320",
+                    "id": 61,
+                    "name": "西园20舍",
+                    "units": [
+                        {
+                            "code": "01",
+                            "dormId": 61,
+                            "id": 225,
+                            "name": "1单元"
+                        },
+                        {
+                            "code": "02",
+                            "dormId": 61,
+                            "id": 226,
+                            "name": "2单元"
+                        },
+                        {
+                            "code": "03",
+                            "dormId": 61,
+                            "id": 227,
+                            "name": "3单元"
+                        },
+                        {
+                            "code": "04",
+                            "dormId": 61,
+                            "id": 228,
+                            "name": "4单元"
+                        },
+                        {
+                            "code": "05",
+                            "dormId": 61,
+                            "id": 229,
+                            "name": "5单元"
+                        },
+                        {
+                            "code": "06",
+                            "dormId": 61,
+                            "id": 230,
+                            "name": "6单元"
+                        },
+                        {
+                            "code": "07",
+                            "dormId": 61,
+                            "id": 231,
+                            "name": "7单元"
+                        },
+                        {
+                            "code": "08",
+                            "dormId": 61,
+                            "id": 232,
+                            "name": "8单元"
+                        },
+                        {
+                            "code": "09",
+                            "dormId": 61,
+                            "id": 233,
+                            "name": "9单元"
+                        },
+                        {
+                            "code": "10",
+                            "dormId": 61,
+                            "id": 234,
+                            "name": "10单元"
+                        }
+                    ]
+                },
+                {
+                    "campusId": 3,
+                    "code": "321",
+                    "id": 62,
+                    "name": "西园21舍",
+                    "units": [
+                        {
+                            "code": "01",
+                            "dormId": 62,
+                            "id": 235,
+                            "name": "1单元"
+                        },
+                        {
+                            "code": "02",
+                            "dormId": 62,
+                            "id": 236,
+                            "name": "2单元"
+                        },
+                        {
+                            "code": "03",
+                            "dormId": 62,
+                            "id": 237,
+                            "name": "3单元"
+                        },
+                        {
+                            "code": "04",
+                            "dormId": 62,
+                            "id": 238,
+                            "name": "4单元"
+                        },
+                        {
+                            "code": "05",
+                            "dormId": 62,
+                            "id": 239,
+                            "name": "5单元"
+                        },
+                        {
+                            "code": "06",
+                            "dormId": 62,
+                            "id": 240,
+                            "name": "6单元"
+                        },
+                        {
+                            "code": "07",
+                            "dormId": 62,
+                            "id": 241,
+                            "name": "7单元"
+                        },
+                        {
+                            "code": "08",
+                            "dormId": 62,
+                            "id": 242,
+                            "name": "8单元"
+                        }
+                    ]
+                },
+                {
+                    "campusId": 3,
+                    "code": "104",
+                    "id": 67,
+                    "name": "东园4舍",
+                    "units": []
+                },
+                {
+                    "campusId": 3,
+                    "code": "105",
+                    "id": 68,
+                    "name": "东园5舍",
+                    "units": []
+                }
+            ],
+            "id": 3,
+            "name": "江安校区"
+        }
+    ]
+}
