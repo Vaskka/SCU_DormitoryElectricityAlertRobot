@@ -40,6 +40,9 @@ class API(object):
         res = requests.post(url=cls.host, data=cls.form_data)
         res_obj = json.loads(res.text)
 
+        if res_obj["result"] is not 0:
+            return None
+
         return res_obj["contents"]
         pass
 
@@ -64,6 +67,9 @@ class API(object):
 
         res = requests.post(url=cls.host, data=cls.form_data)
         res_obj = json.loads(res.text)
+
+        if res_obj["result"] is not 0:
+            return None
 
         return float(res_obj["contents"]["degree"])
     pass

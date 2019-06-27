@@ -6,8 +6,7 @@ from src.main.core.controller import Controller
 
 def main():
 
-
-    app = Controller()
+    app = Controller(is_debug=False)
     app.init()
     app.run()
     pass
