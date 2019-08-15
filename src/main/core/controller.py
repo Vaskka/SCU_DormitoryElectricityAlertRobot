@@ -61,12 +61,12 @@ class Controller(object):
         mongo_psw = input('密码： ')
 
         # 默认学号and密码
-        default_card_id = input("请输入默认学号：")
+        default_card_id = input("请输入学工号：")
         default_psw = input("密码：")
 
         # 检查正确性
         if API.login(card_id=default_card_id, psw=default_psw) is None:
-            Log.error("默认的学号或密码不正确")
+            Log.error("学工号或密码不正确")
             exit(1)
             pass
         # 暂存密码用户名
@@ -113,7 +113,39 @@ class Controller(object):
             wechat_obj_id = md5(msg.sender.name)
             wechat_name = str(msg.sender.name)
 
-            # 检查注册
+            # 帮助优先
+            if msg.text == setting.STATIC_TEXT["help"]:
+                return setting.REPLY_TEXT["help"]
+
+            # 检查search
+            if check_dict_contains_sub_str(setting.STATIC_TEXT["search"], msg.text):
+                key = check_dict_contains_sub_str(setting.STATIC_TEXT["search"], msg.text)
+
+                # 搜索有效寝室信息
+                if key == "campus":
+                    return "\n".join(RoomUtil.get_campus())
+                    pass
+                elif key == "area":
+                    try:
+                        res = "\n".join(RoomUtil.get_dorm(msg.text.split('-')[0]))
+                    except:
+                        res = "指令有误，请重新输入。\n格式：%%校区名字%%-有效围合\n例如：江安校区-有效围合"
+                    return res
+                    pass
+                else:
+                    info_list = msg.text.split('-')
+                    try:
+                        mid = RoomUtil.get_unit(info_list[0], info_list[1])
+                        if mid is None:
+                            return "未查询到满足条件的有效单元，请重新输入。\n格式：%%校区名字%%-%%围合名字%%-有效单元\n例如：江安校区-西园7舍-有效单元"
+
+                        res = "\n".join(mid)
+                    except:
+                        res = "指令有误，请重新输入。\n格式：%%校区名字%%-%%围合名字%%-有效单元\n例如：江安校区-西园7舍-有效单元"
+                    return res
+                    pass
+
+            # 需要注册的功能先检查注册
             check_register_result = check_if_register(msg.text)
             if check_register_result[0]:
                 # 已经注册返回提示已经注册
@@ -153,11 +185,13 @@ class Controller(object):
                     # 开预警
                     return model.MainModel.set_alert(wechat_obj_id, True)
                     pass
+
                 pass
             pass
 
             # # 不是主要功能传递给图灵机器人做出回复
             self.tuling.do_reply(msg)
+            return "可以输入%s查看Elen的用法哟～" % setting.STATIC_TEXT["help"]
 
         while True:
             schedule.run_pending()
@@ -194,8 +228,6 @@ class Controller(object):
         """
         schedule.every(setting.ALERT_HOURS).hours.do(Controller.ele_alert)
         pass
-
-
 
     def __init__(self, is_debug=True):
         self.is_debug = is_debug

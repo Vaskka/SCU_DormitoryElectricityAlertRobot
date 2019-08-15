@@ -35,11 +35,11 @@ class MainModel(object):
         # 检查寝室信息
         campus_id = util.RoomUtil.find_real_campus_id(campus)
         if campus_id is None:
-            return "校区有误，请重新注册。"
+            return "校区有误，请重新注册。您可以输入[有效校区]查询有效的校区名字～"
 
         building_id, unit_id = util.RoomUtil.find_real_building_id_and_unit_id(campus_id, building, unit)
         if not building_id or not unit_id:
-            return "楼栋号或单元号有误或不存在，请重新注册。"
+            return "围合或单元有误或不存在，请重新注册。您可以输入[%%校区名%%-有效围合]和[%%校区名%%-%%围合名%%-有效单元]分别查询有效的围合和单元名字，例如：江安校区-西园7舍-有效单元～"
 
         curr_electron = API.get_electricity(campus=campus_id, building=building_id, unit=unit_id, room=room, sub_room=sub_room, token=util.get_token())
         if curr_electron is None:

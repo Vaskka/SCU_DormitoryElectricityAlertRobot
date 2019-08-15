@@ -33,7 +33,54 @@ def get_token():
     pass
 
 
+def check_dict_contains_sub_str(_dict, s):
+    """
+    检查dict中的value是否是s中的字串
+    :param _dict: dict
+    :param s: s
+    :return: str or None
+    """
+    for k, v in _dict.items():
+        if v in s:
+            return k
+        pass
+
+    return None
+
+
 class RoomUtil:
+
+    @classmethod
+    def get_campus(cls):
+
+        # 获取全部有效的校区名字
+        return [_["name"] for _ in setting.ROOM_ID_DICT]
+        pass
+
+    @classmethod
+    def get_dorm(cls, campus):
+
+        # 获取有效的围合名字
+        for cam in setting.ROOM_ID_DICT:
+            if cam["name"] == campus:
+                return [_["name"] for _ in cam["dorms"]]
+                pass
+
+        return None
+        pass
+
+    @classmethod
+    def get_unit(cls, campus, dorm):
+
+        # 获取有效的单元名字
+        for cam in setting.ROOM_ID_DICT:
+            if cam["name"] == campus:
+                for _d in cam["dorms"]:
+                    if _d["name"] == dorm:
+                        return [_["name"] for _ in _d["units"]]
+                pass
+
+        return None
 
     @classmethod
     def find_real_campus_id(cls, campus):
@@ -69,3 +116,5 @@ class RoomUtil:
         pass
 
     pass
+
+
