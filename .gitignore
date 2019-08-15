@@ -3,3 +3,4 @@ venv_win
 venv
 
 *.log
+*.pyc
