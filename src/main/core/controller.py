@@ -14,7 +14,7 @@ from src.main.settings import setting
 # 控制器类，组织各个模块
 class Controller(object):
     # 全局机器人对象，未初始化
-    bot = Bot()
+    bot = None
 
     # 全局DAO对象，未初始化
     dao = None
@@ -52,6 +52,8 @@ class Controller(object):
         初始化
         :return:
         """
+
+        self.bot = Bot(console_qr=self.console)
 
         # 初始化日志
         Log.init_log()
@@ -229,7 +231,10 @@ class Controller(object):
         schedule.every(setting.ALERT_HOURS).hours.do(Controller.ele_alert)
         pass
 
-    def __init__(self, is_debug=True):
+    def __init__(self, is_debug=True, console=False):
+
+        self.console = console
+
         self.is_debug = is_debug
 
         # 图灵机器人对象
