@@ -35,7 +35,7 @@
 
 1. [python3](https://www.python.org/downloads/)，依赖模块：
   + [requests](https://2.python-requests.org/en/master/)
-  + [wepy](https://github.com/youfou/wxpy)
+  + [wxpy](https://github.com/youfou/wxpy)
 2. [mongodb](https://www.mongodb.com/)
 
 ### 云环境的附加小工具（非必须）
